@@ -17,7 +17,7 @@ public class MyGdxGame extends ApplicationAdapter implements GestureDetector.Ges
     private Grid grid;
     private Solver solver;
 
-    private static final byte DELTA = 1;
+    private static final byte DELTA = 2;
 
     private ShapeRenderer shapeRenderer;
 
@@ -33,7 +33,7 @@ public class MyGdxGame extends ApplicationAdapter implements GestureDetector.Ges
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         switch (state) {
             case 0:
-                grid = Grid.from(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), 16 * DELTA, 10 * DELTA);
+                grid = Grid.from(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), 16 * DELTA, 16 * DELTA);
                 state = 1;
                 break;
             case 1:
