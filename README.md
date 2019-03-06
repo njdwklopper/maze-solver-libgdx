@@ -2,4 +2,4 @@
 
 A maze generator and a simple ML solver running separately.
 
-![Demo](https://thumbs.gfycat.com/DangerousLimpHake-size_restricted.gif)
+![Demo](https://github.com/njdwklopper/maze-solver-libgdx/raw/master/maze.gif)
