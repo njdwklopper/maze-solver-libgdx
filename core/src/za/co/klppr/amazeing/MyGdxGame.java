@@ -33,7 +33,7 @@ public class MyGdxGame extends ApplicationAdapter implements GestureDetector.Ges
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         switch (state) {
             case 0:
-                grid = Grid.from(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), 16 * DELTA, 16 * DELTA);
+                grid = Grid.from(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), 8 * DELTA, 8 * DELTA);
                 state = 1;
                 break;
             case 1:
