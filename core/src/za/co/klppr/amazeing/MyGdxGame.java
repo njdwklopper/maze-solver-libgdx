@@ -13,7 +13,7 @@ import za.co.klppr.amazeing.maze.Solver;
 public class MyGdxGame extends ApplicationAdapter implements GestureDetector.GestureListener {
 
     int state = 0;
-    float timeSinceCollision = 0;
+    float timeSinceColslision = 0;
     private Grid grid;
     private Solver solver;
 

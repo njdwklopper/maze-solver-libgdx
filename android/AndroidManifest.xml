@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="za.co.klppr.amazeing" >
 
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="26" />
 
     <application
         android:allowBackup="true"
